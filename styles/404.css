@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'inter-semibold'; /* Name your font family */
+    src: url('../assets/fonts/Inter/Inter-SemiBold.ttf'); /* Locate the .ttf file within your directory*/
+}
+
+@font-face {
+    font-family: 'inter-medium'; /* Name your font family */
+    src: url('../assets/fonts/Inter/Inter-Medium.ttf'); /* Locate the .ttf file within your directory*/
+
+}
+
+@font-face {
+    font-family: 'inter-regular'; /* Name your font family */
+    src: url('../assets/fonts/Inter/Inter-Regular.ttf'); /* Locate the .ttf file within your directory*/
+
+}
+
+.error-404 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgba(9, 10, 11, 0.3);
+
+}
+
+.h1-404 {
+    color: #26E5A1;
+    line-height: 200px;
+    font-family: "inter-semibold", sans-serif;
+    font-size: 220px;
+}
+
+.h1-error {
+    font-size: 142px;
+    line-height: 100px;
+    font-family: "inter-semibold", sans-serif;
+}
+
+.br-404 {
+    height: 120px;
+}
+
+.page-not-found-404 {
+    margin-top: 42px;
+    margin-bottom: 72px;
+
+
+    h3 {
+        font-family: "inter-regular", sans-serif;
+        font-size: 24px;
+    }
+
+    p {
+        font-family: "inter-regular", sans-serif;
+        color: #ECFFF8;
+        font-size: 20px;
+    }
+
+}
+
+.btns-group-404 {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+

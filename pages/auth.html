@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>fake. login</title>
+    <link href="../styles/index.css" rel="stylesheet">
+    <link href="../styles/auth.css" rel="stylesheet">
+    <link href="../styles/header.css" rel="stylesheet">
+    <link href="./favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+    </style>
+</head>
+<body>
+<main>
+    <div class="header">
+        <div class="header-container">
+            <a onclick="redirectHome()">
+                <img class="logo" src="../assets/images/icons/logo.png"/>
+            </a>
+            <div class="breadcrumbs">
+                <a>Order</a>
+                <a>FAQ</a>
+                <a>Referral</a>
+                <a>Reseller</a>
+                <a>Contacts</a>
+            </div>
+            <div class="login">
+                <button class="btn-primary">
+                    <p class="p-btn-primary">
+                        Log in
+                    </p>
+                </button>
+                <img class="vline" src="../assets/images/lines/vline.png">
+                <button class="btn-secondary">
+                    <p class="p-btn-secondary">
+                        Sign up
+                    </p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="auth">
+        <div class="card-auth-border1">
+            <div class="card-auth-border2">
+                <div class="card-auth">
+                    <div class="h2s-auth">
+                        <h3 class="colored-text">Create an account,&nbsp;</h3>
+                        <h3>and get IDs!</h3>
+                    </div>
+                    <div class="radio-inputs">
+                        <label class="radio">
+                            <input checked="" name="radio" type="radio">
+                            <span class="name">Sign up</span>
+                        </label>
+                        <label class="radio">
+                            <input name="radio" type="radio">
+                            <span class="name">Log in</span>
+                        </label>
+                        </label>
+                    </div>
+                    <div class="form-auth">
+                        <input class="user-data-input" placeholder="E-mail">
+                        <input class="user-data-input" placeholder="Password">
+                        <input class="user-data-input" placeholder="Referral code">
+                    </div>
+                    <button class="btn-fill" onclick="redirectProfile()" style="width: 100%; margin: 12px 0;">
+                        <p style="color: #09090B;">
+                            Create account
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="license">fake. © All Rights Reserved</p>
+</main>
+<script src="../js/auth.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.order {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    align-items: center;
+
+}
+
+.order-getstarted {
+    max-width: 1124px;
+    width: 100%;
+    background-image: url("../assets/images/bg/getstarted-grid.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    border-radius: 12px;
+    border: 1px solid #212931;
+
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-getstarted-desc {
+    max-width: 434px;
+}
+
+.order-getstarted-p {
+    margin: 24px 0 32px 0;
+}
