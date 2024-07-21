@@ -11,7 +11,6 @@
     align-content: center;
     background-color: #09090B;
     border-bottom: 1px solid #152125;
-    order: 100000;
 }
 
 .profile-header-container {
@@ -20,42 +19,12 @@
     align-items: center;
     align-content: center;
     width: 100%;
-    max-width: 1132px;
     height: 84px;
 
+    max-width: 1192px;
+
 }
 
-.breadcrumbs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 360px;
-    width: 100%;
-    margin: 0 24px;
-}
-
-.breadcrumbs-selected {
-    color: #26E5A1;
-}
-
-.login {
-    display: flex;
-    flex-direction: row;
-    min-width: 224px;
-    margin: 0 24px;
-}
-
-.vline {
-    margin: 8px 24px 8px 20px;
-}
-
-.img-link {
-    margin: 8px;
-}
-
-.logo {
-    padding-top: 8px;
-}
 
 .sidenav {
     height: 100%;
@@ -92,12 +61,47 @@
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
 
-    .sidenav a {
-        font-size: 18px;
+.breadcrumbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 360px;
+    width: 100%;
+    min-width: 320px;
+
+    a {
+        cursor: pointer;
+    }
+}
+
+.breadcrumbs-selected {
+    color: #26E5A1;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    min-width: 224px;
+    margin: 0 28px;
+}
+
+.vline {
+    margin: 8px 24px 8px 20px;
+}
+
+.img-link {
+    margin: 8px;
+}
+
+.logo {
+    padding-top: 8px;
+    margin: 0 24px;
+
+}
+
+@media (min-width: 0px) and (max-width: 840px) {
+    .breadcrumbs {
+        display: none;
     }
 }

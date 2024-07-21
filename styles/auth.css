@@ -2,10 +2,8 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 200px;
     margin-bottom: 40px;
-
-
 }
 
 main {
@@ -14,17 +12,16 @@ main {
 
 .card-auth-border1 {
     background: linear-gradient(to bottom right,
-    rgba(23, 30, 36, 0.1),
     rgba(38, 229, 161, 0.05),
     rgba(38, 229, 161, 0.1),
+    rgba(38, 229, 161, 0.2),
+    rgba(38, 229, 161, 0.2),
     rgba(38, 229, 161, 0.15),
-    rgba(38, 229, 161, 0.15),
-    rgba(38, 229, 161, 0.1),
     rgba(38, 229, 161, 0.05),
     rgba(23, 30, 36, 0.2),
     rgba(11, 13, 14, 0.2));
     border-radius: 20px;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
 
 }
 
@@ -37,15 +34,14 @@ main {
     border-radius: 20px;
 
 
-    max-width: 550px;
-    height: 520px;
+    max-width: 555px;
 
     padding: 1rem 3rem;
     background-image: url('../assets/images/bg/auth-card.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    background-color: rgba(11, 13, 14, 0.7);
+    background-color: rgba(11, 13, 14, 0.8);
 
     margin: 2px;
 }

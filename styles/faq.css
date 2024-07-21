@@ -20,47 +20,42 @@
     background-repeat: no-repeat;
     background-position: 50% 128px;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 124px;
+    background-color: rgba(9, 10, 11, 0.9);
 }
 
 .faq-container {
-    padding-top: 80px;
-    max-width: 1124px;
+    padding: 60px 0;
+    max-width: 1200px;
     width: 100%;
 }
 
 
 .faq-page-container {
-    max-width: 1124px;
+    max-width: 1200px;
+    min-width: 420px;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .accordions {
     text-align: left;
-    width: 100%;
-    margin-top: 16px;
+    margin-top: 28px;
+    padding: 0 24px 0 24px;
 
     .accordion {
-        margin: 12px;
-        border: 1px solid #212931;
-        border-radius: 8px;
+        margin-top: 12px;
+        border: 1px solid;
+        border-color: #212931;
+        border-radius: 9px;
         background-color: #16191C;
-
+        transition: background-color 0.3s ease;
+        padding: 1px;
     }
 
-    *:focus {
-        outline: none;
-    }
 
-    body > div {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        order: -100;
 
-    }
+
 
 
     details div > * + * {
@@ -77,28 +72,44 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        background-color: #16191C;
+        border-radius: 8px 8px 0 0;
+        padding: 16px 20px;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 0;
+        order: -1000;
     }
 
     summary::-webkit-details-marker {
         display: none;
     }
 
-    summary {
-        padding: .75em 1em;
-        cursor: pointer;
-        font-size: 18px;
-        margin: 4px;
-        order: -1000;
+
+    summary:after {
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url("../assets/images/icons/plus.png") 4px -4px ;
+        display: inline-block;
     }
 
-    details[open] summary {
-        background-color: #16191C;
+    details[open] summary:after {
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url("../assets/images/icons/minus.svg") 4px -4px ;
+        display: inline-block;
     }
 
     p {
         background-color: #16191C;
         padding: 16px 20px;
         border-top: 1px solid #212931;
+        margin: 0;
+        border-radius: 0 0 8px 8px;
+
+
     }
 
     h4 {

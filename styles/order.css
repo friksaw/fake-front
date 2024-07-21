@@ -4,11 +4,12 @@
 
     width: 100%;
     align-items: center;
+    padding: 112px 24px 24px 24px;
 
 }
 
 .order-getstarted {
-    max-width: 1124px;
+    max-width: 1122px;
     width: 100%;
     background-image: url("../assets/images/bg/getstarted-grid.png");
     background-repeat: no-repeat;
@@ -22,6 +23,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    img {
+        margin-bottom: auto;
+    }
 }
 
 .order-getstarted-desc {
@@ -30,4 +35,14 @@
 
 .order-getstarted-p {
     margin: 24px 0 32px 0;
+}
+
+.orders-list {
+    margin: 56px 24px 0 24px;
+
+}
+.order-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
 }

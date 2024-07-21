@@ -21,8 +21,10 @@
     flex-direction: column;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: auto;
-    background-color: rgba(9, 10, 11, 0.3);
+    background-size: contain;
+    background-image: url('../assets/images/bg/404-grid.svg');
+    background-color: rgba(9, 10, 11, 0.5);
+    padding-top: 164px;
 
 }
 
@@ -45,7 +47,7 @@
 
 .page-not-found-404 {
     margin-top: 42px;
-    margin-bottom: 72px;
+    margin-bottom: 96px;
 
 
     h3 {
@@ -57,6 +59,7 @@
         font-family: "inter-regular", sans-serif;
         color: #ECFFF8;
         font-size: 20px;
+        margin-top: 10px;
     }
 
 }

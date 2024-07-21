@@ -45,8 +45,8 @@ a {
 h1 {
     font-family: "manrope-semibold", sans-serif;
     margin: 0 0 24px 0;
-    font-size: 46px;
-    line-height: 20px;
+    font-size: 48px;
+    line-height: 40px;
 }
 
 h2 {
@@ -96,13 +96,19 @@ button {
     color: #26E5A1;
     background-color: rgba(255, 255, 255, 0);
     padding: 0;
-
 }
+
 
 .btn-secondary {
     color: #09090B;
     background-color: #26E5A1;
     padding: 0 24px;
+}
+.btn-secondary2 {
+    color: #7AE4BE;
+    background-color: #16191C;
+    padding: 0 24px;
+    width: 180px;
 }
 
 

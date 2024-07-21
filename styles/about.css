@@ -1,36 +1,41 @@
-.about-block1 {
+.about-block1-container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 144px;
-    height: 372px;
-
+    padding: 120px 24px 0 24px;
 }
 
-.about-block2 {
-    max-width: 896px;
+.about-block2-container {
+    max-width: 900px;
     align-items: center;
-    padding-top: 76px;
-    background-image: url("../assets/images/bg/light.svg");
+    align-content: center;
+    padding: 80px;
+
 }
 
-.about-block2-bg {
-    width: 100%;
-    align-items: center;
-    background-color: rgba(9, 10, 11, 0.6);
+.about-block2-bg1 {
+    background-image: url("../assets/images/bg/about2-bg.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.about-block2-bg2 {
+    background-color: rgba(9, 10, 11, 0.8);
 }
 
-.about-block1,
-.about-block2 {
+.about-block1-bg {
+
+}
+
+.about-block1-container,
+.about-block2-container {
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
 
-    width: 100%;
     justify-content: center;
 
-    max-width: 1124px;
+    max-width: 1140px;
 }
 
 .about-links {
@@ -39,13 +44,14 @@
     align-items: center;
 
     a {
-        width: 28px;
         padding-right: 18px;
     }
+
 }
 
 .img-link {
     width: 27px;
+    margin-left: -4px;
 }
 
 .about-features {
@@ -55,7 +61,7 @@
 }
 
 .about-features-desc {
-    margin: 48px 0;
+    margin: 48px 0 20px 0;
 }
 
 .about-snipped {
@@ -76,16 +82,29 @@
     display: flex;
     flex-direction: row;
     margin-top: 28px;
-    padding: 20px 0 112px 0;
+    margin-bottom: 40px;
 }
 
+
+.about-benefit-center,
 .about-benefit {
     max-width: 220px;
     padding: 28px;
+    border-top: 1px solid #171E24;
+    border-bottom: 1px solid #171E24;
+    background-image: url("../assets/images/bg/benefits-grid.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.about-benefit-center {
+    max-width: 220px;
+    padding: 28px;
+    border: 1px solid #171E24;
 }
 
 .br-about {
     width: 100%;
-    background-color: rgba(9, 10, 11, 0.95);
-    height: 110px;
+    background-color: rgba(9, 10, 11, 0.9);
+    height: 132px;
 }

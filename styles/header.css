@@ -20,7 +20,7 @@
     align-items: center;
     align-content: center;
     width: 100%;
-    max-width: 1132px;
+    max-width: 1192px;
     height: 84px;
 
 }
@@ -31,7 +31,11 @@
     justify-content: space-between;
     max-width: 360px;
     width: 100%;
-    margin: 0 24px;
+    min-width: 320px;
+
+    a {
+        cursor: pointer;
+    }
 }
 
 .breadcrumbs-selected {
@@ -42,7 +46,7 @@
     display: flex;
     flex-direction: row;
     min-width: 224px;
-    margin: 0 24px;
+    margin: 0 28px;
 }
 
 .vline {
@@ -55,4 +59,13 @@
 
 .logo {
     padding-top: 8px;
+    margin: 0 24px;
+    cursor: pointer;
+
+}
+
+@media (min-width: 0px) and (max-width: 840px) {
+    .breadcrumbs {
+        display: none;
+    }
 }
