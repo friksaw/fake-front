@@ -110,6 +110,20 @@ button {
     padding: 0 24px;
     width: 180px;
 }
+.btn-offer {
+    color: #26E5A1;
+    padding: 0 24px;
+    background-color: rgba(38, 229, 161, 0.2)
+
+}
+.btn-offer-action {
+    color: #7AE4BE;
+    background-color: #1B2224;
+    padding: 0 24px;
+    width: 600px;
+    margin: 20px 0 36px 0;
+
+}
 
 
 .colored-text {
