@@ -10,7 +10,10 @@
     align-items: center;
     align-content: center;
     background-color: #09090B;
-    border-bottom: 1px solid #152125;
+
+    .p-btn-primary {
+        margin-left: -4px;
+    }
 }
 
 .profile-header-container {
@@ -38,19 +41,25 @@
     transition: 0.5s;
     padding-top: 4px;
     border-right: 1px solid #152125;
+
+    .logo {
+        margin: 0 auto;
+        padding: 24px;
+    }
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px;
     text-decoration: none;
-    color: #465762;
-    display: block;
+    color: #46525D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     transition: 0.3s;
-    font-size: 18px;
+    font-size: 15px;
 }
-
-.sidenav a:hover {
-    color: #f1f1f1;
+.sidenav img{
+    margin: 8px;
 }
 
 .sidenav .closebtn {
@@ -100,6 +109,27 @@
 
 }
 
+.navbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-item-selected {
+    border-radius: 8px;
+    background-color: #26E5A1;
+    width: 240px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    img {
+        color: red;
+    }
+    p {
+        color: #000000;
+    }
+}
 @media (min-width: 0px) and (max-width: 840px) {
     .breadcrumbs {
         display: none;

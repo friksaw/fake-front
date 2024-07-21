@@ -87,14 +87,18 @@
 {
     margin-right: 48px;
 }
+.order-offer-license {
+    p {
+        color: #ECFFF8;
+    }
+}
 
 .order-sort,
 .offer-country,
 .offer-desc
 {
-    p {
         color: #46525D;
-    }
+
 }
 
 .sort-category {
@@ -114,4 +118,13 @@
 }
 .btn-offer {
     margin-left: 10px;
+}
+
+.order-offers-list {
+    margin: 42px 0;
+}
+
+.offer-desc-h3-colored {
+    font-size: 22px;
+    color: #26E5A1;
 }

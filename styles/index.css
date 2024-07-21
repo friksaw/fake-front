@@ -71,10 +71,12 @@ p {
     font-size: 18px;
     margin: 4px;
     color: #50677D;
+    line-height: 28px;
+
 }
 
 .p-btn-secondary {
-    color: #09090B
+    color: #09090B;
 }
 
 .p-btn-primary {
@@ -97,32 +99,49 @@ button {
     background-color: rgba(255, 255, 255, 0);
     padding: 0;
 }
-
-
+.btn-outlined {
+    color: #26E5A1;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    border: 1px solid #3AFCB7;
+    min-width: 152px;
+}
 .btn-secondary {
     color: #09090B;
     background-color: #26E5A1;
     padding: 0 24px;
 }
-.btn-secondary2 {
+.btn-secondary-green {
     color: #7AE4BE;
-    background-color: #16191C;
+    background-color: rgba(38, 229, 161, 0.2);
     padding: 0 24px;
-    width: 180px;
+    min-width: 180px;
 }
+.btn-secondary-red {
+    color: #E52626;
+    padding: 0 24px;
+    background-color: rgba(229, 38, 38, 0.2);
+    min-width: 180px;
+
+}
+.btn-secondary-yellow {
+    color: #FFB800;
+    padding: 0 24px;
+    background-color: rgba(255, 184, 0, 0.2);
+    min-width: 180px;
+}
+
 .btn-offer {
     color: #26E5A1;
     padding: 0 24px;
-    background-color: rgba(38, 229, 161, 0.2)
-
+    background-color: rgba(38, 229, 161, 0.2);
 }
-.btn-offer-action {
+.btn-action {
     color: #7AE4BE;
     background-color: #1B2224;
     padding: 0 24px;
     width: 600px;
-    margin: 20px 0 36px 0;
-
+    margin: 0 0 36px 0;
 }
 
 
@@ -229,6 +248,10 @@ input::placeholder {
     color: #394653;
 }
 
+input {
+    color: #ECFFF8;
+}
+
 .hr-v {
     border-color: #171E24;
     width: 0;
@@ -247,4 +270,12 @@ input::placeholder {
 .hline {
     width: 100%;
     margin: 0;
+}
+
+.badge {
+    padding: 2px 12px;
+    margin: 0 4px;
+    border-radius: 16px;
+    color: #26E5A1;
+    background-color: rgba(38, 229, 161, 0.2);
 }

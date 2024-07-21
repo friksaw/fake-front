@@ -39,7 +39,7 @@
             <img src="../assets/images/navbar/caret.svg">
         </a>
         <a href="../pages/profile-tickets.html">
-        <div class="navbar-item">
+            <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-ticket.svg">
                 <p>Tickets</p>
             </div>
@@ -49,13 +49,13 @@
             </div>
         </a>
         <a href="../pages/profile-referrals.html">
-        <div class="navbar-item">
+            <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-referrals.svg">
                 <p>Referrals</p>
             </div>
         </a>
         <a href="../pages/profile-wallet.html">
-        <div class="navbar-item">
+            <div class="navbar-item-selected">
                 <img src="../assets/images/navbar/nb-wallet.svg">
                 <p>Wallet</p>
             </div>
@@ -91,12 +91,15 @@
                 <a>Contacts</a>
             </div>
             <div class="login">
-                <img src="../assets/images/icons/profile.png">
-
-                <img class="vline" src="../assets/images/lines/vline.png">
                 <button class="btn-primary" onclick="redirectAuth()">
                     <p class="p-btn-primary">
-                        Log out
+                        Log in
+                    </p>
+                </button>
+                <img class="vline" src="../assets/images/lines/vline.png">
+                <button class="btn-secondary" onclick="redirectAuth()">
+                    <p class="p-btn-secondary">
+                        Sign up
                     </p>
                 </button>
             </div>
@@ -106,8 +109,27 @@
 
 
 
+    <img class="hline" src="../assets/images/lines/line.png">
 
-
+    <div class="profile">
+        <div class="profile-container">
+            <h3>
+                Wallet
+            </h3>
+            <div class="wallet-label">
+                <img src="">
+            </div>
+            <p>
+                Earn the Reseller status and get up to 30% discount on all orders.
+                Upon making succeful orders or paying $ 290 you can ean the reseller status no time.
+            </p>
+            <button class="btn-action">
+                <p class="p-btn-primary">
+                    Recharge
+                </p>
+            </button>
+        </div>
+    </div>
 
 </main>
 <script src="../js/main.js"></script>

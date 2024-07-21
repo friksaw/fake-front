@@ -1,232 +1,44 @@
-@font-face {
-    font-family: 'manrope-semibold'; /* Name your font family */
-    src: url('../assets/fonts/Manrope/Manrope-SemiBold.ttf'); /* Locate the .ttf file within your directory*/
+.profile-container {
+    padding: 120px 24px 80px 280px;
 }
-
-@font-face {
-    font-family: 'manrope-medium'; /* Name your font family */
-    src: url('../assets/fonts/Manrope/Manrope-Medium.ttf'); /* Locate the .ttf file within your directory*/
+.profile-reseller-container {
+    padding: 232px 72px 72px 334px;
+    .btn-secondary {
+        min-width: 168px;
+    }
 }
-
-@font-face {
-    font-family: 'manrope-regular';
-    src: url('../assets/fonts/Manrope/Manrope-Regular.ttf');
+.profile-reseller-10-10 {
+    margin: 36px 0;
+    h2 {
+        color: #26E5A1;
+    }
 }
-
-@font-face {
-    font-family: 'manrope-light';
-    src: url('../assets/fonts/Manrope/Manrope-Light.ttf');
+.profile-reseller-desc {
+    max-width: 560px;
+    p {
+        margin-bottom: 36px;
+    }
 }
-
-body {
-    margin: 0;
-    font-family: "manrope-medium", sans-serif;
-    background-position: 98% 0;
-    background-size: auto;
-    background-repeat: no-repeat;
+.profile-reseller-header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    align-content: center;
-    min-height: 100vh;
-    background-color: #090A0B;
-    color: #ECFFF8;
+   .btn-outlined {
+       margin: -12px 16px 0 16px;
+   }
+}
+.form-account {
+    input {
+        max-width: 1580px;
+        width: 100%;
+    }
+    p {
+        margin-top: 30px;
+    }
+}
+.order-sort {
+    margin-top: 32px;
 }
 
-main {
-    width: 100%;
-}
-
-a {
-    color: #50677D;
-    font-size: 14px;
-}
-
-h1 {
-    font-family: "manrope-semibold", sans-serif;
-    margin: 0 0 24px 0;
-    font-size: 46px;
-    line-height: 20px;
-}
-
-h2 {
-    margin: 0;
-    font-size: 28px;
-    font-family: "manrope-light", sans-serif;
-}
-
-h3 {
-    margin: 0;
-    font-family: "manrope-semibold", sans-serif;
-    font-size: 28px;
-}
-
-h4 {
-    font-family: "manrope-semibold", sans-serif;
-    font-size: 18px;
-    margin: 24px 4px;
-}
-
-p {
-    font-size: 18px;
-    margin: 4px;
-    color: #50677D;
-}
-
-.p-btn-secondary {
-    color: #09090B
-}
-
-.p-btn-primary {
-    color: #26E5A1
-}
-
-a {
-}
-
-button {
-    font-family: "manrope-semibold", sans-serif;
-    border-radius: 8px;
-    border: none;
-    height: 40px;
-}
-
-
-.btn-primary {
-    color: #26E5A1;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 0;
-
-}
-
-.btn-secondary {
-    color: #09090B;
-    background-color: #26E5A1;
-    padding: 0 24px;
-}
-
-
-.colored-text {
-    color: #26E5A1;
-}
-
-
-.container {
-    text-align: center;
-}
-
-
-.buttons {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 4rem;
-}
-
-.license {
-    position: absolute;
-    bottom: 16px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.8rem;
-    color: #26E5A1;
-}
-
-.license-grey {
-    padding: 36px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.radio-inputs {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 0.5rem;
-    background-color: #050606;
-    box-sizing: border-box;
-    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
-    padding: 0.25rem;
-    width: 465px;
-    height: 48px;
-    margin: 24px 0;
-}
-
-.radio-inputs .radio {
-    flex: 1 1 auto;
-    text-align: center;
-}
-
-.radio-inputs .radio input {
-    display: none;
-}
-
-.radio-inputs .radio .name {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    border: none;
-    padding: .5rem 0;
-    color: #50677D;
-    transition: all .15s ease-in-out;
-    height: 24px;
-}
-
-.radio-inputs .radio input:checked + .name {
-    background-color: #0C0E0F;
-    color: #ECFFF8;
-}
-
-.user-data-input {
-    background-color: #0C0E0F;
-    border: 1px solid #212931;
-    border-radius: 12px;
-    height: 64px;
-    max-width: 432px;
-    width: 100%;
-    margin: 4px;
-    padding: 0 16px;
-    font-size: 18px;
-}
-
-.user-data-input .radio .name {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    border: none;
-    padding: .5rem 0;
-    color: #50677D;
-    transition: all .15s ease-in-out;
-    height: 24px;
-}
-
-input::placeholder {
-    font-size: 18px;
-    color: #394653;
-}
-
-.hr-v {
-    border-color: #171E24;
-    width: 0;
-}
-
-.hr-h {
-    border-color: #171E24;
-    width: 100%;
-    margin: 0;
-}
-
-.vline-slant {
-    margin: 0 16px;
-}
-
-.hline {
-    width: 100%;
-    margin: 0;
-}
 
 

@@ -7,7 +7,7 @@ function redirectHome() {
 }
 
 function redirectProfile() {
-    location.href = "../pages/profile.html";
+    location.href = "../pages/profile-tickets.html";
 }
 
 function redirectFaq() {

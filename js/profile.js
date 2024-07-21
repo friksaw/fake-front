@@ -5,3 +5,4 @@ function openNav() {
 function closeNav() {
     document.getElementById("profileSidenav").style.width = "0";
 }
+

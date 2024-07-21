@@ -24,8 +24,8 @@
         <a onclick="redirectHome()">
             <img class="logo" src="../assets/images/icons/logo.png"/>
         </a>
-        <a href="../pages/profile-account.html">
-            <div onclick="" class="navbar-item">
+        <a class="navbar-item-selected" href="../pages/profile-account.html">
+            <div>
                 <img src="../assets/images/navbar/nb-user.svg">
                 <p>Your Account</p>
             </div>
@@ -39,7 +39,7 @@
             <img src="../assets/images/navbar/caret.svg">
         </a>
         <a href="../pages/profile-tickets.html">
-        <div class="navbar-item">
+            <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-ticket.svg">
                 <p>Tickets</p>
             </div>
@@ -49,13 +49,13 @@
             </div>
         </a>
         <a href="../pages/profile-referrals.html">
-        <div class="navbar-item">
+            <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-referrals.svg">
                 <p>Referrals</p>
             </div>
         </a>
         <a href="../pages/profile-wallet.html">
-        <div class="navbar-item">
+            <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-wallet.svg">
                 <p>Wallet</p>
             </div>
@@ -103,10 +103,17 @@
         </div>
     </div>
 
-
-
-
-
+    <div class="profile-container">
+        <h3>
+            Account Details
+        </h3>
+        <div class="form-account">
+            <p>E-mail</p>
+            <input class="user-data-input" value="shipping@fake.io"/>
+            <p>New password</p>
+            <input class="user-data-input" value="********">
+        </div>
+    </div>
 
 
 </main>
