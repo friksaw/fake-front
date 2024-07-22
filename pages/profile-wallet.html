@@ -1,138 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>fake.</title>
-    <link href="../styles/index.css" rel="stylesheet">
-    <link href="../styles/404.css" rel="stylesheet">
-    <link href="../styles/profile-header.css" rel="stylesheet">
-    <link href="../styles/about.css" rel="stylesheet">
-    <link href="../styles/faq.css" rel="stylesheet">
-    <link href="../styles/contacts.css" rel="stylesheet">
-    <link href="../styles/order.css" rel="stylesheet">
-    <link href="../styles/profile.css" rel="stylesheet">
-    <link href="./favicon.ico" rel="icon" type="image/x-icon">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
-    </style>
-</head>
-<body>
-<main>
-    <div class="sidenav" id="profileSidenav">
-        <a onclick="redirectHome()">
-            <img class="logo" src="../assets/images/icons/logo.png"/>
-        </a>
-        <a href="../pages/profile-account.html">
-            <div onclick="" class="navbar-item">
-                <img src="../assets/images/navbar/nb-user.svg">
-                <p>Your Account</p>
-            </div>
-            <img src="../assets/images/navbar/caret.svg">
-        </a>
-        <a href="../pages/profile-orders.html">
-            <div class="navbar-item">
-                <img src="../assets/images/navbar/nb-order.svg">
-                <p>My orders</p>
-            </div>
-            <img src="../assets/images/navbar/caret.svg">
-        </a>
-        <a href="../pages/profile-tickets.html">
-            <div class="navbar-item">
-                <img src="../assets/images/navbar/nb-ticket.svg">
-                <p>Tickets</p>
-            </div>
-            <div>
-                <img src="../assets/images/navbar/new.svg">
-                <img src="../assets/images/navbar/caret.svg">
-            </div>
-        </a>
-        <a href="../pages/profile-referrals.html">
-            <div class="navbar-item">
-                <img src="../assets/images/navbar/nb-referrals.svg">
-                <p>Referrals</p>
-            </div>
-        </a>
-        <a href="../pages/profile-wallet.html">
-            <div class="navbar-item-selected">
-                <img src="../assets/images/navbar/nb-wallet.svg">
-                <p>Wallet</p>
-            </div>
-        </a>
-        <a href="../pages/profile-adresses.html">
-            <div class="navbar-item">
-                <img src="../assets/images/navbar/nb-adresses.svg">
-                <p>Shipping adresses</p>
-            </div>
-        </a>
-        <a href="../pages/profile-reseller.html">
-            <div class="navbar-item">
-                <img src="../assets/images/navbar/nb-reseller.svg">
-                <p>Reseller</p>
-            </div>
-        </a>
-        <a href="../pages/profile.html">
-            <div class="navbar-item">
-                <img src="../assets/images/navbar/nb-settings.svg">
-                <p>Settings</p>
-            </div>
-        </a>
-    </div>
-
-    <div class="profile-header">
-        <div class="profile-header-container">
-            <div></div>
-            <div class="breadcrumbs">
-                <a onclick="redirectOrder()">Order</a>
-                <a onclick="redirectFaq()">FAQ</a>
-                <a>Referral</a>
-                <a>Reseller</a>
-                <a>Contacts</a>
-            </div>
-            <div class="login">
-                <button class="btn-primary" onclick="redirectAuth()">
-                    <p class="p-btn-primary">
-                        Log in
-                    </p>
-                </button>
-                <img class="vline" src="../assets/images/lines/vline.png">
-                <button class="btn-secondary" onclick="redirectAuth()">
-                    <p class="p-btn-secondary">
-                        Sign up
-                    </p>
-                </button>
-            </div>
+<div class="profile">
+    <div class="profile-container">
+        <h3>
+            Wallet
+        </h3>
+        <div class="wallet-label">
+            <img src="">
         </div>
-    </div>
-
-
-
-
-    <img class="hline" src="../assets/images/lines/line.png">
-
-    <div class="profile">
-        <div class="profile-container">
-            <h3>
-                Wallet
-            </h3>
-            <div class="wallet-label">
-                <img src="">
-            </div>
-            <p>
-                Earn the Reseller status and get up to 30% discount on all orders.
-                Upon making succeful orders or paying $ 290 you can ean the reseller status no time.
+        <p>
+            Earn the Reseller status and get up to 30% discount on all orders.
+            Upon making succeful orders or paying $ 290 you can ean the reseller status no time.
+        </p>
+        <button class="btn-action">
+            <p class="p-btn-primary">
+                Recharge
             </p>
-            <button class="btn-action">
-                <p class="p-btn-primary">
-                    Recharge
-                </p>
-            </button>
-        </div>
+        </button>
     </div>
-
-</main>
-<script src="../js/main.js"></script>
-<script src="../js/profile.js"></script>
-</body>
-</html>
+</div>

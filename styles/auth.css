@@ -1,28 +1,26 @@
 .auth {
     display: flex;
     align-content: center;
+    align-items: center;
     justify-content: center;
-    margin-top: 200px;
-    margin-bottom: 40px;
+    margin: auto 0;
+    min-height: calc(100vh - 80px);
 }
 
-main {
-    width: 100%;
-}
 
-.card-auth-border1 {
-    background: linear-gradient(to bottom right,
-    rgba(38, 229, 161, 0.05),
-    rgba(38, 229, 161, 0.1),
-    rgba(38, 229, 161, 0.2),
-    rgba(38, 229, 161, 0.2),
-    rgba(38, 229, 161, 0.15),
-    rgba(38, 229, 161, 0.05),
-    rgba(23, 30, 36, 0.2),
-    rgba(11, 13, 14, 0.2));
+.card-auth-border {
+    background: linear-gradient(rgba(11, 13, 14, 0.9) 0 0) padding-box, /*this is your grey background*/ linear-gradient(to bottom right,
+    rgba(41, 44, 29, 0.1) 0%,
+    rgba(38, 229, 161, 0.6) 100%,
+    rgba(41, 44, 29, 0.1) 50%,
+    rgba(38, 229, 161, 0.6) 50%,
+    rgba(41, 44, 29, 0.1) 10%,
+    rgba(41, 44, 29, 0.1) 0%) border-box;
+    border: 1px solid transparent;
     border-radius: 20px;
-    backdrop-filter: blur(6px);
-
+    max-width: 555px;
+    height: fit-content;
+    margin: 120px 24px 40px 24px;
 }
 
 
@@ -32,28 +30,20 @@ main {
     justify-content: center;
     align-content: space-between;
     border-radius: 20px;
-
-
-    max-width: 555px;
-
-    padding: 1rem 3rem;
+    padding: 48px 40px 40px 40px;
     background-image: url('../assets/images/bg/auth-card.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    background-color: rgba(11, 13, 14, 0.8);
-
-    margin: 2px;
 }
 
 
 .form-auth {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 4px;
-    margin-bottom: 8px;
+    margin: 28px 0 18px 0;
+    height: 212px;
+    justify-content: space-between;
 }
 
 
@@ -61,19 +51,12 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 24px 0 28px 0;
-    width: 100%;
+    margin: 0 0 42px 0;
     text-align: center;
+}
 
-    h2 {
-
+@media (max-width: 600px) {
+    .h2s-auth {
+        flex-direction: column;
     }
 }
-
-.btn-fill {
-    background-color: #26E5A1;
-    color: #090A0B;
-    height: 50px;
-    max-width: 555px;
-}
-

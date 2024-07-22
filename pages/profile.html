@@ -6,13 +6,16 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>fake.</title>
     <link href="../styles/index.css" rel="stylesheet">
-    <link href="../styles/404.css" rel="stylesheet">
+    <link href="../styles/profile.css" rel="stylesheet">
+    <link href="../styles/buttons.css" rel="stylesheet">
+    <link href="../styles/text.css" rel="stylesheet">
+    <link href="../styles/list.css" rel="stylesheet">
+    <link href="../styles/auth.css" rel="stylesheet">
     <link href="../styles/profile-header.css" rel="stylesheet">
     <link href="../styles/about.css" rel="stylesheet">
     <link href="../styles/faq.css" rel="stylesheet">
     <link href="../styles/contacts.css" rel="stylesheet">
     <link href="../styles/order.css" rel="stylesheet">
-    <link href="../styles/profile.css" rel="stylesheet">
     <link href="./favicon.ico" rel="icon" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
@@ -21,17 +24,17 @@
 <body>
 <main>
     <div class="sidenav" id="profileSidenav">
-        <a onclick="redirectHome()">
-            <img class="logo" src="../assets/images/icons/logo.png"/>
+        <a onclick="window.location.href = '/fake-front/'">
+            <img class="logo" src="../assets/images/icons/logo.svg"/>
         </a>
-        <a href="../pages/profile-account.html">
-            <div onclick="" class="navbar-item">
+        <a href="/fake-front/profile" onclick="route()">
+            <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-user.svg">
                 <p>Your Account</p>
             </div>
             <img src="../assets/images/navbar/caret.svg">
         </a>
-        <a href="../pages/profile-orders.html">
+        <a href="../pages/profile-tickets.html">
             <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-order.svg">
                 <p>My orders</p>
@@ -39,14 +42,12 @@
             <img src="../assets/images/navbar/caret.svg">
         </a>
         <a href="../pages/profile-tickets.html">
-        <div class="navbar-item">
+            <div class="navbar-item-new-drop">
                 <img src="../assets/images/navbar/nb-ticket.svg">
                 <p>Tickets</p>
-            </div>
-            <div>
                 <img src="../assets/images/navbar/new.svg">
-                <img src="../assets/images/navbar/caret.svg">
             </div>
+            <img src="../assets/images/navbar/caret.svg">
         </a>
         <a href="../pages/profile-referrals.html">
         <div class="navbar-item">
@@ -83,17 +84,18 @@
     <div class="profile-header">
         <div class="profile-header-container">
             <div></div>
+            <div></div>
             <div class="breadcrumbs">
-                <a onclick="redirectOrder()">Order</a>
-                <a onclick="redirectFaq()">FAQ</a>
-                <a>Referral</a>
-                <a>Reseller</a>
-                <a>Contacts</a>
+                <a class="text-color-green1">Order</a>
+                <a class="text-color-grey1">FAQ</a>
+                <a class="text-color-grey1">Referral</a>
+                <a class="text-color-grey1">Reseller</a>
+                <a class="text-color-grey1">Contacts</a>
             </div>
             <div class="login">
                 <img src="../assets/images/icons/profile.png">
 
-                <img class="vline" src="../assets/images/lines/vline.png">
+                <img class="vline" src="../assets/images/lines/vline.svg">
                 <button class="btn-primary" onclick="redirectAuth()">
                     <p class="p-btn-primary">
                         Log out
@@ -102,15 +104,9 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
 </main>
 <script src="../js/main.js"></script>
 <script src="../js/profile.js"></script>
+<script src="../js/landing-router.js"></script>
 </body>
 </html>

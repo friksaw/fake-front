@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'manrope-semibold'; /* Name your font family */
-    src: url('../assets/fonts/Manrope/Manrope-SemiBold.ttf'); /* Locate the .ttf file within your directory*/
+    font-family: 'manrope-semibold';
+    src: url('../assets/fonts/Manrope/Manrope-SemiBold.ttf');
 }
 
 @font-face {
-    font-family: 'manrope-medium'; /* Name your font family */
-    src: url('../assets/fonts/Manrope/Manrope-Medium.ttf'); /* Locate the .ttf file within your directory*/
+    font-family: 'manrope-medium';
+    src: url('../assets/fonts/Manrope/Manrope-Medium.ttf');
 }
 
 @font-face {
@@ -18,6 +18,11 @@
     src: url('../assets/fonts/Manrope/Manrope-Light.ttf');
 }
 
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter/Inter-Regular.ttf');
+}
+
 body {
     margin: 0;
     font-family: "manrope-medium", sans-serif;
@@ -28,130 +33,28 @@ body {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    min-height: 100vh;
     background-color: #090A0B;
     color: #ECFFF8;
 }
 
-main {
+.content {
     width: 100%;
+    min-height: 100vh;
 }
 
-a {
-    color: #50677D;
-    font-size: 14px;
-}
 
-h1 {
-    font-family: "manrope-semibold", sans-serif;
-    margin: 0 0 24px 0;
-    font-size: 48px;
-    line-height: 40px;
-}
-
-h2 {
-    margin: 0;
-    font-size: 28px;
-    font-family: "manrope-light", sans-serif;
-}
-
-h3 {
-    margin: 0;
-    font-family: "manrope-semibold", sans-serif;
-    font-size: 28px;
-}
-
-h4 {
-    font-family: "manrope-semibold", sans-serif;
-    font-size: 18px;
-    margin: 24px 4px;
-}
-
-p {
-    font-size: 18px;
-    margin: 4px;
-    color: #50677D;
-    line-height: 28px;
-
-}
-
-.p-btn-secondary {
-    color: #09090B;
-}
-
-.p-btn-primary {
-    color: #26E5A1
-}
-
-a {
-}
-
-button {
-    font-family: "manrope-semibold", sans-serif;
+.badge-outline {
+    color: #26E5A1;
+    border: 1px solid #26E5A1;
     border-radius: 8px;
-    border: none;
-    height: 40px;
-}
+    margin: 0;
+    height: 28px;
+    width: 152px;
+    font-size: 13px;
 
-
-.btn-primary {
-    color: #26E5A1;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 0;
-}
-.btn-outlined {
-    color: #26E5A1;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 0;
-    border: 1px solid #3AFCB7;
-    min-width: 152px;
-}
-.btn-secondary {
-    color: #09090B;
-    background-color: #26E5A1;
-    padding: 0 24px;
-}
-.btn-secondary-green {
-    color: #7AE4BE;
-    background-color: rgba(38, 229, 161, 0.2);
-    padding: 0 24px;
-    min-width: 180px;
-}
-.btn-secondary-red {
-    color: #E52626;
-    padding: 0 24px;
-    background-color: rgba(229, 38, 38, 0.2);
-    min-width: 180px;
-
-}
-.btn-secondary-yellow {
-    color: #FFB800;
-    padding: 0 24px;
-    background-color: rgba(255, 184, 0, 0.2);
-    min-width: 180px;
-}
-
-.btn-offer {
-    color: #26E5A1;
-    padding: 0 24px;
-    background-color: rgba(38, 229, 161, 0.2);
-}
-.btn-action {
-    color: #7AE4BE;
-    background-color: #1B2224;
-    padding: 0 24px;
-    width: 600px;
-    margin: 0 0 36px 0;
-}
-
-
-.colored-text {
-    color: #26E5A1;
-}
-
-
-.container {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -174,21 +77,23 @@ button {
     padding: 36px;
     display: flex;
     justify-content: center;
+    color: #50677D;
 }
 
 
 .radio-inputs {
     position: relative;
     display: flex;
-    flex-wrap: wrap;
-    border-radius: 0.5rem;
+    align-items: center;
+    border-radius: 8px;
     background-color: #050606;
     box-sizing: border-box;
     box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
-    padding: 0.25rem;
-    width: 465px;
+    max-width: 464px;
+    width: 100%;
+    padding: 4px;
     height: 48px;
-    margin: 24px 0;
+    border: 1px solid #171E24;
 }
 
 .radio-inputs .radio {
@@ -205,27 +110,25 @@ button {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    border-radius: 0.5rem;
-    border: none;
-    padding: .5rem 0;
+    border-radius: 8px;
     color: #50677D;
     transition: all .15s ease-in-out;
-    height: 24px;
+
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: 467;
+    height: 40px;
 }
 
 .radio-inputs .radio input:checked + .name {
     background-color: #0C0E0F;
-    color: #ECFFF8;
 }
 
 .user-data-input {
     background-color: #0C0E0F;
     border: 1px solid #212931;
-    border-radius: 12px;
+    border-radius: 8px;
     height: 64px;
-    max-width: 432px;
-    width: 100%;
-    margin: 4px;
     padding: 0 16px;
     font-size: 18px;
 }
@@ -237,7 +140,7 @@ button {
     justify-content: center;
     border-radius: 0.5rem;
     border: none;
-    padding: .5rem 0;
+    padding: 2px;
     color: #50677D;
     transition: all .15s ease-in-out;
     height: 24px;
@@ -248,9 +151,6 @@ input::placeholder {
     color: #394653;
 }
 
-input {
-    color: #ECFFF8;
-}
 
 .hr-v {
     border-color: #171E24;
@@ -269,7 +169,7 @@ input {
 
 .hline {
     width: 100%;
-    margin: 0;
+    margin-bottom: -4px;
 }
 
 .badge {

@@ -1,28 +1,32 @@
-function redirectAuth() {
-    location.href = "../pages/auth.html";
+body = document.querySelector('body');
+body.style.backgroundImage = "url('../assets/images/bg/about1.svg')";
+body.style.backgroundSize = "956px";
+
+function setAuthStyles() {
+    body.style.backgroundImage = "url('../assets/images/bg/auth-bg.png')";
+    body.style.backgroundSize = "cover";
+    body.style.backgroundPosition = "0";
+}
+function setLandingStyles() {
+    body.style.backgroundImage = "url('../assets/images/bg/about1-bg.svg')";
+    body.style.backgroundSize = "1024px"
+    body.style.backgroundPosition = "100% -90px";
 }
 
-function redirectHome() {
-    location.href = "../pages/index.html";
+function setOrderStyles() {
+    body.style.backgroundImage = "none";
+    body.style.backgroundPosition = "0";
+}
+function setFaqStyles() {
+    body.style.backgroundImage = "none";
+    body.style.backgroundPosition = "0";
+}
+function setProfileStyles() {
+    body.style.backgroundImage = "none";
+    body.style.backgroundPosition = "0";
+    console.log(787878)
 }
 
-function redirectProfile() {
-    location.href = "../pages/profile-tickets.html";
-}
 
-function redirectFaq() {
-    location.href = "../pages/faq.html";
-}
-function redirectOrder() {
-    location.href = "../pages/order.html";
-}
 
-function changeFaqBorder(details) {
-    const accordion = details.parentElement;
 
-    if (!details.open) {
-        accordion.style.background = "black";
-    } else {
-        accordion.style.background = "#212931";
-    }
-}

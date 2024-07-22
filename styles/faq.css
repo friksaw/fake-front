@@ -8,34 +8,35 @@
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
+
+    .faq-container {
+        padding: 60px 0;
+        max-width: 1244px;
+        width: 100%;
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    }
 }
 
 .faq-page {
     display: flex;
     flex-direction: column;
-
-    width: 100%;
     align-items: center;
     background-image: url("../assets/images/bg/faq-bg.png");
     background-repeat: no-repeat;
     background-position: 50% 128px;
     text-align: center;
     padding-top: 124px;
-    background-color: rgba(9, 10, 11, 0.9);
-}
+    background-color: rgba(9, 10, 11, 0.8);
 
-.faq-container {
-    padding: 60px 0;
-    max-width: 1200px;
-    width: 100%;
-}
-
-
-.faq-page-container {
-    max-width: 1200px;
-    min-width: 420px;
-    width: 100%;
-    margin-bottom: 80px;
+    .faq-page-container {
+        max-width: 1200px;
+        min-width: 420px;
+        width: 100%;
+        margin-bottom: 80px;
+    }
 }
 
 .accordions {
@@ -52,11 +53,6 @@
         transition: background-color 0.3s ease;
         padding: 1px;
     }
-
-
-
-
-
 
     details div > * + * {
         margin-top: 1.5em;
@@ -78,19 +74,17 @@
         cursor: pointer;
         font-size: 18px;
         margin: 0;
-        order: -1000;
     }
 
     summary::-webkit-details-marker {
         display: none;
     }
 
-
     summary:after {
         content: "";
         width: 32px;
         height: 32px;
-        background: url("../assets/images/icons/plus.png") 4px -4px ;
+        background: url("../assets/images/icons/plus.png") 4px -4px;
         display: inline-block;
     }
 
@@ -98,23 +92,24 @@
         content: "";
         width: 32px;
         height: 32px;
-        background: url("../assets/images/icons/minus.svg") 4px -4px ;
+        background: url("../assets/images/icons/minus.svg") 4px -4px;
+        display: inline-block;
+    }
+    details[open] summary:after {
+        content: "";
+        width: 32px;
+        height: 32px;
+        background: url("../assets/images/icons/minus.svg") 4px -4px;
         display: inline-block;
     }
 
-    p {
+    .accordion-content {
         background-color: #16191C;
         padding: 16px 20px;
         border-top: 1px solid #212931;
         margin: 0;
         border-radius: 0 0 8px 8px;
-
-
+        color: #50677D;
     }
-
-    h4 {
-        margin: 0;
-    }
-
 }
 

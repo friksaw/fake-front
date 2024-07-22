@@ -5,27 +5,30 @@
     align-items: center;
     border-bottom: 1px solid #171E24;
     border-top: 1px solid #171E24;
-}
 
-.contacts-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1160px;
-    margin: 36px 24px;
+    .contacts-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        margin: 36px 24px;
 
-    p {
-        margin-bottom: 24px;
+        p {
+            margin-bottom: 24px;
+        }
+    }
+
+    .contact-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 164px;
+        margin-top: 12px;
+
+        img {
+            width: 32px;
+        }
     }
 }
 
-.contact-links {
-    margin-top: 12px;
-    a {
-        padding-right: 32px;
-    }
-    img {
-        width: 32px;
-    }
-}

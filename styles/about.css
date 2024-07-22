@@ -1,110 +1,144 @@
-.about-block1-container {
+.about1-container,
+.about2-container {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    padding: 112px 24px 0 24px;
+    justify-content: center;
+    max-width: 1200px;
 }
 
-.about-block2-container {
-    max-width: 900px;
+.about1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    align-content: center;
-    padding: 80px;
 
+    img {
+        width: auto;
+        height: fit-content;
+        margin-bottom: -120px;
+    }
 }
 
-.about-block2-bg1 {
+.about1-bg {
+    .about1-desc-container {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 200px 0 0 0;
+        margin: 0;
+    }
+
+    .about1-features-desc {
+        margin: 48px 0 20px 0;
+    }
+
+    .about1-features {
+        display: flex;
+        flex-direction: row;
+        margin: 40px 0 132px 0;
+    }
+}
+
+.about2-bg1 {
     background-image: url("../assets/images/bg/about2-bg.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-}
-.about-block2-bg2 {
-    background-color: rgba(9, 10, 11, 0.8);
-}
 
-.about-block1-bg {
-
-}
-
-.about-block1-container,
-.about-block2-container {
-    margin: 0 auto;
-
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-
-    max-width: 1140px;
-}
-
-.about-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    a {
-        padding-right: 18px;
+    .about2-bg2 {
+        background-color: rgba(9, 10, 11, 0.9);
     }
-
 }
 
-.img-link {
-    width: 27px;
-    margin-left: -4px;
-}
-
-.about-features {
-    display: flex;
-    flex-direction: row;
-    margin: 40px 0 132px 0;
-}
-
-.about-features-desc {
-    margin: 48px 0 20px 0;
-}
-
-.about-snipped {
-    color: #26E5A1;
-    border: 1px solid #26E5A1;
-    border-radius: 8px;
-    padding: 4px;
-    height: 25px;
-    width: 156px;
-    font-size: 13px;
-
-    display: flex;
+.about2-container {
+    max-width: 900px;
     align-items: center;
-    justify-content: center;
+    align-content: center;
+    padding: 80px 24px;
 }
 
-.about-benefits {
+.about2-benefit1,
+.about2-benefit2,
+.about2-benefit3 {
+    border-top: 1px solid #171E24;
+    border-bottom: 1px solid #171E24;
+    background-image: url("../assets/images/bg/benefits-grid.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about2-benefit2,
+.about2-benefit3 {
+    padding: 48px 56px 28px 56px;
+}
+
+.about2-benefit1 {
+    padding: 48px 56px 28px 0;
+}
+
+.about2-benefit2 {
+    border: 1px solid #171E24;
+}
+
+.about2-benefits {
     display: flex;
     flex-direction: row;
     margin-top: 28px;
     margin-bottom: 40px;
 }
+.about1-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
 
+    img {
+        margin-top: -120px;
+    }
 
-.about-benefit-center,
-.about-benefit {
-    max-width: 220px;
-    padding: 28px;
-    border-top: 1px solid #171E24;
-    border-bottom: 1px solid #171E24;
-    background-image: url("../assets/images/bg/benefits-grid.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
+    .about1-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 92px;
+
+        .about1-img-link {
+            width: 20px;
+        }
+    }
+}
+@media (max-width: 900px) {
+    .about2-benefits {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about2-benefit1,
+    .about2-benefit2,
+    .about2-benefit3 {
+        border: none;
+        border-bottom: 1px solid #171E24;
+        text-align: center;
+        padding: 48px 0 28px 0;
+        background-size: contain;
+    }
 }
 
-.about-benefit-center {
-    max-width: 220px;
-    padding: 28px;
-    border: 1px solid #171E24;
+@media (max-width: 1296px) {
+    .about1-container {
+        justify-content: center;
+        .bg-image {
+            display: none;
+        }
+        .about1-desc-container {
+            padding: 200px 24px 0 24px;
+        }
+    }
+    .about1-features {
+        max-width: 380px;
+    }
 }
 
-.br-about {
-    width: 100%;
-    background-color: rgba(9, 10, 11, 0.9);
-    height: 132px;
-}

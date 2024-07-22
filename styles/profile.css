@@ -1,41 +1,52 @@
 .profile-container {
     padding: 120px 24px 80px 280px;
 }
+
 .profile-reseller-container {
     padding: 232px 72px 72px 334px;
+
     .btn-secondary {
         min-width: 168px;
     }
 }
+
 .profile-reseller-10-10 {
     margin: 36px 0;
+
     h2 {
         color: #26E5A1;
     }
 }
+
 .profile-reseller-desc {
     max-width: 560px;
+
     p {
         margin-bottom: 36px;
     }
 }
+
 .profile-reseller-header {
     display: flex;
     flex-direction: row;
     align-items: center;
-   .btn-outlined {
-       margin: -12px 16px 0 16px;
-   }
+
+    .btn-outlined {
+        margin: -12px 16px 0 16px;
+    }
 }
+
 .form-account {
     input {
         max-width: 1580px;
         width: 100%;
     }
+
     p {
         margin-top: 30px;
     }
 }
+
 .order-sort {
     margin-top: 32px;
 }

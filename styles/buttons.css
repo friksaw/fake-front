@@ -1,0 +1,97 @@
+button {
+    font-family: "manrope-semibold", sans-serif;
+    border-radius: 8px;
+    border: none;
+    height: 40px;
+}
+
+.btn-primary,
+.btn-secondary {
+    font-size: 18px;
+    border-radius: 8px;
+    height: 42px;
+}
+
+.btn-primary {
+    color: #26E5A1;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+}
+
+.btn-outlined {
+    color: #26E5A1;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0;
+    border: 1px solid #3AFCB7;
+    min-width: 152px;
+}
+
+.btn-secondary {
+    color: #09090B;
+    background-color: #26E5A1;
+    padding: 0 24px;
+}
+
+.btn-secondary-green {
+    color: #26E5A1;
+    padding: 6px 16px;
+    background-color: rgba(38, 229, 161, 0.2);
+    font-size: 18px;
+    border-radius: 8px;
+    min-width: 48px;
+}
+
+.btn-secondary-big {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 48px;
+    background-color: #26E5A1;
+    width: 100%;
+    border-radius: 8px;
+    color: #09090B;
+    font-size: 18px;
+}
+
+.btn-secondary-red {
+    color: #E52626;
+    padding: 0 24px;
+    background-color: rgba(229, 38, 38, 0.2);
+    min-width: 180px;
+}
+
+.btn-secondary-yellow {
+    color: #FFB800;
+    padding: 0 24px;
+    background-color: rgba(255, 184, 0, 0.2);
+    min-width: 180px;
+}
+
+.btn-secondary-grey {
+    color: #7AE4BE;
+    padding: 8px 24px;
+    background-color: #16191C;
+    font-size: 18px;
+    border-radius: 8px;
+
+    background:
+            linear-gradient(#1A1C1F 0 0) padding-box, /*this is your grey background*/
+            linear-gradient(to bottom right,
+            #292C31,
+            rgba(38, 229, 161, 0.6) 50%,
+            #292C31,
+            rgba(38, 229, 161, 0.6) 50%,
+            #292C31,
+            #292C31)
+            border-box;
+    border: 1px solid transparent;
+}
+
+
+.btn-action {
+    color: #7AE4BE;
+    background-color: #1B2224;
+    padding: 0 24px;
+    width: 600px;
+    margin: 0 0 36px 0;
+}
