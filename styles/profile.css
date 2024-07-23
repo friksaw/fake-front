@@ -1,11 +1,12 @@
 body {
     display: block;
+    height: 100%;
 }
 .profile-container {
     padding: 140px 24px 80px 280px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    min-height: 77vh;
 }
 
 .profile-reseller-container {
