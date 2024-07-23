@@ -1,3 +1,12 @@
+function openNav() {
+    document.getElementById("nv-sidenav").style.width = "560px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("nv-sidenav").style.width = "0";
+}
+
 function changeBorderColor(details) {
     const accordion = details.parentElement;
 
