@@ -1,0 +1,25 @@
+.steps-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.step-selected,
+.step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    margin: 10px;
+    background-color: #16191C;
+    padding: 10px;
+    border: 1px solid #26E5A1;
+}
+
+.step {
+
+}
+
+.step-selected {
+
+}

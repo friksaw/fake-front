@@ -173,10 +173,4 @@ input::placeholder {
     margin-bottom: -4px;
 }
 
-.badge {
-    padding: 2px 12px;
-    margin: 0 4px;
-    border-radius: 16px;
-    color: #26E5A1;
-    background-color: rgba(38, 229, 161, 0.2);
-}
+
