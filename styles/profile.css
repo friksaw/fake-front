@@ -2,7 +2,7 @@ body {
     display: block;
 }
 .profile-container {
-    padding: 120px 24px 80px 280px;
+    padding: 140px 24px 80px 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,7 +1,13 @@
 .list {
-    margin: 16px 0 16px 0;
+    margin: 18px 0 16px 0;
     max-width: 1200px;
     width: 100%;
+
+    .list-big-button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
 
     .list-row {
         display: flex;
