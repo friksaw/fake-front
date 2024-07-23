@@ -43,10 +43,15 @@ html, body {
 }
 
 .form-account {
+    display: flex;
+    flex-direction: column;
     input {
         margin-top: 8px;
         max-width: 1089px;
         width: 100%;
+    }
+    .btn-action {
+        align-self: center;
     }
 
     p {

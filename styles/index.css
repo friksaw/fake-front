@@ -129,6 +129,8 @@ body {
     height: 64px;
     padding: 0 16px;
     font-size: 18px;
+    color: #ECFFF8;
+
 }
 
 .user-data-input .radio .name {
@@ -139,15 +141,16 @@ body {
     border-radius: 0.5rem;
     border: none;
     padding: 2px;
-    color: #50677D;
     transition: all .15s ease-in-out;
     height: 24px;
+
 }
 
 input::placeholder {
     font-size: 18px;
     color: #394653;
 }
+
 
 
 .hr-v {
