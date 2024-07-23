@@ -1,3 +1,6 @@
+body {
+    display: block;
+}
 .profile-container {
     padding: 120px 24px 80px 280px;
 }
@@ -38,12 +41,12 @@
 
 .form-account {
     input {
-        max-width: 1580px;
         width: 100%;
+        margin-top: 8px;
     }
 
     p {
-        margin-top: 30px;
+        margin: 30px 0 8px 0;
     }
 }
 
