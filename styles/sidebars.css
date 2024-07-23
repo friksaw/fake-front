@@ -8,7 +8,6 @@
     right: 0;
     background-color: #09090B;
     overflow-x: hidden;
-    transition: 0.5s;
     border-left: 1px solid #171E24;
 
 }
@@ -53,7 +52,6 @@
 }
 .nv-sidenav a {
     padding: 8px 8px 8px 32px;
-    transition: 0.3s;
 }
 
 
@@ -61,15 +59,11 @@
 .nv-sidenav  {
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 0;
     font-size: 36px;
     margin-left: 50px;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
-}
 
 
 .navbar-item-new-drop,
@@ -156,7 +150,6 @@
     left: 0;
     background-color: #09090B;
     overflow-x: hidden;
-    transition: 0.5s;
     padding-top: 4px;
     border-right: 1px solid #152125;
 
@@ -175,7 +168,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        transition: 0.3s;
         font-size: 15px;
     }
 
