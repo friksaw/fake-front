@@ -43,6 +43,10 @@
         display: flex;
         flex-direction: row;
         margin: 40px 0 132px 0;
+
+        img {
+            height: 64px;
+        }
     }
 }
 
