@@ -3,7 +3,7 @@ html, body {
     display: block;
 }
 .profile-container {
-    padding: 140px 24px 80px 280px;
+    padding: 120px 24px 80px 290px;
     display: flex;
     flex-direction: column;
     height: 100%;
