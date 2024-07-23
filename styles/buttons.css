@@ -3,6 +3,7 @@ button {
     border-radius: 8px;
     border: none;
     height: 40px;
+    cursor: pointer;
 }
 
 .btn-primary,

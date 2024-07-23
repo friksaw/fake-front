@@ -56,9 +56,6 @@
     transition: 0.3s;
 }
 
-.nv-sidenav a:hover {
-    color: #f1f1f1;
-}
 
 
 .nv-sidenav  {
@@ -67,6 +64,11 @@
     right: 0px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
 }
 
 
@@ -79,6 +81,7 @@
     align-items: center;
     width: 228px;
     height: 40px;
+    margin: 8px;
 }
 .navbar-item-new-drop-selected {
     background-color: #26E5A1;
@@ -96,7 +99,7 @@
 .navbar-item-dropdown,
 .navbar-item-dropdown-selected {
     width: 150px;
-    padding: 8px 16px;
+    padding: 6px 16px;
 }
 
 .navbar-item-dropdown-selected {
@@ -109,7 +112,7 @@
 
 .navbar-item-new-drop-selected {
     border-radius: 8px;
-    width: 244px;
+    width: 252px;
     justify-content: space-between;
     path {
         fill: #000000;
@@ -179,9 +182,4 @@
     svg {
         margin: 8px;
     }
-}
-
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
 }

@@ -16,6 +16,7 @@
     <link href="../styles/faq.css" rel="stylesheet">
     <link href="../styles/contacts.css" rel="stylesheet">
     <link href="../styles/order.css" rel="stylesheet">
+    <link href="../styles/sidebars.css" rel="stylesheet">
     <link href="./favicon.ico" rel="icon" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
@@ -31,7 +32,9 @@
     </div>
     <div class="nv-sidebar-content">
         <div class="nv-sidebar-content-inputs">
-            <input class="user-data-input" placeholder="Subject">
+            <label>
+                <input class="user-data-input" placeholder="Subject">
+            </label>
             <input class="user-data-input" placeholder="Category">
             <input class="user-data-input" placeholder="Add file">
             <input class="user-data-input" style="height: 218px" placeholder="Message">
@@ -90,7 +93,7 @@
             <a class="navbar-item-dropdown-selected">
                 <p class="text-color-white2">Your tickets</p>
             </a>
-            <a class="navbar-item-dropdown">
+            <a class="navbar-item-dropdown" onclick="openNav()">
                 <p class="text-color-white2">+ New ticket</p>
             </a>
         </div>

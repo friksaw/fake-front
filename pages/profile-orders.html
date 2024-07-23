@@ -16,6 +16,7 @@
     <link href="../styles/faq.css" rel="stylesheet">
     <link href="../styles/contacts.css" rel="stylesheet">
     <link href="../styles/order.css" rel="stylesheet">
+    <link href="../styles/sidebars.css" rel="stylesheet">
     <link href="./favicon.ico" rel="icon" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
@@ -57,7 +58,7 @@
             <a class="navbar-item-dropdown-selected">
                 <p class="text-color-white2">Orders</p>
             </a>
-            <a class="navbar-item-dropdown">
+            <a class="navbar-item-dropdown" onclick="openNav()">
                 <p class="text-color-white2">+ New order</p>
             </a>
         </div>
@@ -277,7 +278,7 @@
                 </div>
             </div>
             <div class="list-big-button">
-                <button class="btn-action">
+                <button class="btn-action" onclick="openNav()">
                     <p class="text-color-green2">
                         New order
                     </p>
