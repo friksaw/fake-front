@@ -6,6 +6,11 @@
     justify-content: center;
     max-width: 1200px;
 }
+.about2-bg1,
+.about2-bg2,
+.about1-bg {
+    width: 100%;
+}
 
 .about1-container {
     display: flex;

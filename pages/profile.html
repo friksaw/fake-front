@@ -27,7 +27,7 @@
         <a onclick="window.location.href = '/fake-front/'">
             <img class="logo" src="../assets/images/icons/logo.svg"/>
         </a>
-        <a href="/fake-front/profile" onclick="route()">
+        <a href="/fake-front/profile-account" onclick="route()">
             <div class="navbar-item">
                 <img src="../assets/images/navbar/nb-user.svg">
                 <p>Your Account</p>
@@ -94,19 +94,18 @@
             </div>
             <div class="login">
                 <img src="../assets/images/icons/profile.png">
-
                 <img class="vline" src="../assets/images/lines/vline.svg">
-                <button class="btn-primary" onclick="redirectAuth()">
-                    <p class="p-btn-primary">
-                        Log out
-                    </p>
-                </button>
+                <a href="/fake-front/pages/auth.html" class="btn-primary">
+                    Log out
+                </a>
             </div>
         </div>
     </div>
+
+    <div class="content" id="content"></div>
 </main>
 <script src="../js/main.js"></script>
 <script src="../js/profile.js"></script>
-<script src="../js/landing-router.js"></script>
+<script src="../js/url-router.js"></script>
 </body>
 </html>

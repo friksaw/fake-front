@@ -29,7 +29,9 @@
     background-position: 50% 128px;
     text-align: center;
     padding-top: 124px;
-    background-color: rgba(9, 10, 11, 0.8);
+    background-color: rgba(9, 10, 11, 0.85);
+    width: 100%;
+
 
     .faq-page-container {
         max-width: 1200px;

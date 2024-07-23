@@ -1,176 +1,281 @@
-
-
-
-    <div class="profile-container">
-        <h3 style="margin-bottom: 40px">
-            Tickets
-        </h3>
-        <div class="order-buttons">
-            <button class="btn-secondary" style="width: 180px">
-                <p class="p-btn-secondary">
-                    All
-                </p>
-            </button>
-            <button class="btn-secondary-green">
-                <p class="p-btn-primary">
-                    Opened
-                </p>
-            </button>
-            <button class="btn-secondary-green">
-                <p class="p-btn-primary">
-                    Closed
-                </p>
-            </button>
-            <button class="btn-secondary-green">
-                <p class="p-btn-primary">
-                    New message
-                </p>
-            </button>
-        </div>
-
-
-        <div class="order-offers-list">
-            <div class="order-offer">
-                <div class="offer-desc">
-                    <p>Ticket # GL-X0ZOJD</p>
-                </div>
-
-                <div class="offer-country">
-                    <p>
-                        Messages:
-                    </p>
-                    <div class="badge">24</div>
-                    <div class="badge">2 Unread</div>
-                </div>
-                <div class="offer-desc">
-                    <p>Hello, i can’t buy id for alaba..</p>
-                </div>
-                <div class="offer-data">
-                    <p>
-                        2 days ago
-                    </p>
-                    <button class="btn-offer">
-                        <p class="p-btn-primary">
-                            Open
-                        </p>
-                    </button>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>fake.</title>
+    <link href="../styles/index.css" rel="stylesheet">
+    <link href="../styles/profile.css" rel="stylesheet">
+    <link href="../styles/buttons.css" rel="stylesheet">
+    <link href="../styles/text.css" rel="stylesheet">
+    <link href="../styles/list.css" rel="stylesheet">
+    <link href="../styles/auth.css" rel="stylesheet">
+    <link href="../styles/profile-header.css" rel="stylesheet">
+    <link href="../styles/about.css" rel="stylesheet">
+    <link href="../styles/faq.css" rel="stylesheet">
+    <link href="../styles/contacts.css" rel="stylesheet">
+    <link href="../styles/order.css" rel="stylesheet">
+    <link href="./favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+    </style>
+</head>
+<body>
+<main>
+    <div class="sidenav" id="profileSidenav">
+        <a href="/fake-front/pages/landing.html">
+            <img class="logo" src="../assets/images/icons/logo.svg"/>
+        </a>
+        <a href="/fake-front/pages/profile-account.html" onclick="route()">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-user.svg">
+                <p>Your Account</p>
             </div>
-            <div class="order-offer">
-                <div class="offer-desc">
-                    <p>Ticket # GL-X0ZOJD</p>
-                </div>
-
-                <div class="offer-country">
-                    <p>
-                        Messages:
-                    </p>
-                    <div class="badge">24</div>
-                    <div class="badge">2 Unread</div>
-                </div>
-                <div class="offer-desc">
-                    <p>Hello, i can’t buy id for alaba..</p>
-                </div>
-                <div class="offer-data">
-                    <p>
-                        2 days ago
-                    </p>
-                    <button class="btn-offer">
-                        <p class="p-btn-primary">
-                            Open
-                        </p>
-                    </button>
-                </div>
+            <img src="../assets/images/navbar/caret.svg">
+        </a>
+        <a href="/fake-front/pages/profile-orders.html">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-order.svg">
+                <p>My orders</p>
             </div>
-            <div class="order-offer">
-                <div class="offer-desc">
-                    <p>Ticket # GL-X0ZOJD</p>
-                </div>
-
-                <div class="offer-country">
-                    <p>
-                        Messages:
-                    </p>
-                    <div class="badge">24</div>
-                    <div class="badge">2 Unread</div>
-                </div>
-                <div class="offer-desc">
-                    <p>Hello, i can’t buy id for alaba..</p>
-                </div>
-                <div class="offer-data">
-                    <p>
-                        2 days ago
-                    </p>
-                    <button class="btn-offer">
-                        <p class="p-btn-primary">
-                            Open
-                        </p>
-                    </button>
-                </div>
+            <img src="../assets/images/navbar/caret.svg">
+        </a>
+        <a href="/fake-front/pages/profile-tickets.html">
+            <div class="navbar-item-new-drop">
+                <img src="../assets/images/navbar/nb-ticket.svg">
+                <p>Tickets</p>
+                <img src="../assets/images/navbar/new.svg">
             </div>
-            <div class="order-offer">
-                <div class="offer-desc">
-                    <p>Ticket # GL-X0ZOJD</p>
-                </div>
+            <img src="../assets/images/navbar/caret.svg">
+        </a>
+        <a href="/fake-front/pages/profile-referrals.html">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-referrals.svg">
+                <p>Referrals</p>
+            </div>
+        </a>
+        <a href="/fake-front/pages/profile-wallet.html">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-wallet.svg">
+                <p>Wallet</p>
+            </div>
+        </a>
+        <a href="/fake-front/pages/profile-adresses.html">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-adresses.svg">
+                <p>Shipping adresses</p>
+            </div>
+        </a>
+        <a href="/fake-front/pages/profile-reseller.html">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-reseller.svg">
+                <p>Reseller</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="navbar-item">
+                <img src="../assets/images/navbar/nb-settings.svg">
+                <p>Settings</p>
+            </div>
+        </a>
+    </div>
 
-                <div class="offer-country">
-                    <p>
-                        Messages:
-                    </p>
-                    <div class="badge">24</div>
-                    <div class="badge">2 Unread</div>
-                </div>
-                <div class="offer-desc">
-                    <p>Hello, i can’t buy id for alaba..</p>
-                </div>
-                <div class="offer-data">
-                    <p>
-                        2 days ago
-                    </p>
-                    <button class="btn-offer">
-                        <p class="p-btn-primary">
-                            Open
-                        </p>
-                    </button>
-                </div>
+    <div class="profile-header">
+        <div class="profile-header-container">
+            <div></div>
+            <div></div>
+            <div class="breadcrumbs">
+                <a class="text-color-grey1">Order</a>
+                <a class="text-color-grey1">FAQ</a>
+                <a class="text-color-grey1">Referral</a>
+                <a class="text-color-grey1">Reseller</a>
+                <a class="text-color-grey1">Contacts</a>
+            </div>
+            <div class="login">
+                <img src="../assets/images/icons/profile.png">
+                <img class="vline" src="../assets/images/lines/vline.svg">
+                <a href="/fake-front/pages/auth.html" class="btn-primary">
+                    Log out
+                </a>
             </div>
         </div>
-        <button class="btn-action">
+    </div>
+
+
+<div class="profile-container">
+    <h3 style="margin-bottom: 40px">
+        Tickets
+    </h3>
+    <div class="order-buttons">
+        <button class="btn-secondary" style="width: 180px">
+            <p class="p-btn-secondary">
+                All
+            </p>
+        </button>
+        <button class="btn-secondary-green">
             <p class="p-btn-primary">
-                + New ticket
+                Opened
+            </p>
+        </button>
+        <button class="btn-secondary-green">
+            <p class="p-btn-primary">
+                Closed
+            </p>
+        </button>
+        <button class="btn-secondary-green">
+            <p class="p-btn-primary">
+                New message
             </p>
         </button>
     </div>
-    <button class="btn-offer-action">
-        <p class="p-btn-primary">
-            View nore
-        </p>
-    </button>
 
-    <div class="contacts">
-        <div class="contacts-container">
-            <p>
-                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent accumsan
-                ligula at dui mattis, nec vulputate magna tempor. Donec et purus vitae nunc consectetur congue
-                consectetur quis est. Morbi aliquam sem sed venenatis mattis. Curabitur maximus diam purus, ut dapibus
-                felis tempor quis.
-            </p>
-            <div class="about-links">
-                <a>
-                    <img class="img-link" src="../assets/images/icons/tg.svg"/>
-                </a>
-                <a>
-                    <img class="img-link" src="../assets/images/icons/discord.svg"/>
-                </a>
-                <a>
-                    <img class="img-link" src="../assets/images/icons/gmail.svg"/>
-                </a>
+
+    <div class="order-offers-list">
+        <div class="order-offer">
+            <div class="offer-desc">
+                <p>Ticket # GL-X0ZOJD</p>
+            </div>
+
+            <div class="offer-country">
+                <p>
+                    Messages:
+                </p>
+                <div class="badge">24</div>
+                <div class="badge">2 Unread</div>
+            </div>
+            <div class="offer-desc">
+                <p>Hello, i can’t buy id for alaba..</p>
+            </div>
+            <div class="offer-data">
+                <p>
+                    2 days ago
+                </p>
+                <button class="btn-offer">
+                    <p class="p-btn-primary">
+                        Open
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="order-offer">
+            <div class="offer-desc">
+                <p>Ticket # GL-X0ZOJD</p>
+            </div>
+
+            <div class="offer-country">
+                <p>
+                    Messages:
+                </p>
+                <div class="badge">24</div>
+                <div class="badge">2 Unread</div>
+            </div>
+            <div class="offer-desc">
+                <p>Hello, i can’t buy id for alaba..</p>
+            </div>
+            <div class="offer-data">
+                <p>
+                    2 days ago
+                </p>
+                <button class="btn-offer">
+                    <p class="p-btn-primary">
+                        Open
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="order-offer">
+            <div class="offer-desc">
+                <p>Ticket # GL-X0ZOJD</p>
+            </div>
+
+            <div class="offer-country">
+                <p>
+                    Messages:
+                </p>
+                <div class="badge">24</div>
+                <div class="badge">2 Unread</div>
+            </div>
+            <div class="offer-desc">
+                <p>Hello, i can’t buy id for alaba..</p>
+            </div>
+            <div class="offer-data">
+                <p>
+                    2 days ago
+                </p>
+                <button class="btn-offer">
+                    <p class="p-btn-primary">
+                        Open
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div class="order-offer">
+            <div class="offer-desc">
+                <p>Ticket # GL-X0ZOJD</p>
+            </div>
+
+            <div class="offer-country">
+                <p>
+                    Messages:
+                </p>
+                <div class="badge">24</div>
+                <div class="badge">2 Unread</div>
+            </div>
+            <div class="offer-desc">
+                <p>Hello, i can’t buy id for alaba..</p>
+            </div>
+            <div class="offer-data">
+                <p>
+                    2 days ago
+                </p>
+                <button class="btn-offer">
+                    <p class="p-btn-primary">
+                        Open
+                    </p>
+                </button>
             </div>
         </div>
     </div>
-    <p class="license-grey">
-        fake. © All Rights Reserved
+    <button class="btn-action">
+        <p class="p-btn-primary">
+            + New ticket
+        </p>
+    </button>
+</div>
+<button class="btn-offer-action">
+    <p class="p-btn-primary">
+        View nore
     </p>
+</button>
+
+<div class="contacts">
+    <div class="contacts-container">
+        <p>
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent accumsan
+            ligula at dui mattis, nec vulputate magna tempor. Donec et purus vitae nunc consectetur congue
+            consectetur quis est. Morbi aliquam sem sed venenatis mattis. Curabitur maximus diam purus, ut dapibus
+            felis tempor quis.
+        </p>
+        <div class="about-links">
+            <a>
+                <img class="img-link" src="../assets/images/icons/tg.svg"/>
+            </a>
+            <a>
+                <img class="img-link" src="../assets/images/icons/discord.svg"/>
+            </a>
+            <a>
+                <img class="img-link" src="../assets/images/icons/gmail.svg"/>
+            </a>
+        </div>
     </div>
+</div>
+<p class="license-grey">
+    fake. © All Rights Reserved
+</p>
+</main>
+<script src="../js/main.js"></script>
+</body>
+</html>
 
 

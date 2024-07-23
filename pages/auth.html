@@ -1,30 +1,80 @@
-<div class="auth">
-    <div class="card-auth-border">
-        <div class="card-auth">
-            <div class="h2s-auth">
-                <h3 class="text-color-green1">Create an account,&nbsp;</h3>
-                <h3>and get IDs!</h3>
-            </div>
-            <div class="radio-inputs">
-                <label class="radio">
-                    <input checked="" name="radio" type="radio">
-                    <span class="name">Sign up</span>
-                </label>
-                <label class="radio">
-                    <input name="radio" type="radio">
-                    <span class="name">Log in</span>
-                </label>
-            </div>
-            <div class="form-auth">
-                <input class="user-data-input" placeholder="E-mail">
-                <input class="user-data-input" placeholder="Password">
-                <input class="user-data-input" placeholder="Referral code">
-            </div>
-            <a class="btn-secondary-big" href="/fake-front/profile" onclick="route()">
-                Create account
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>fake.</title>
+    <link href="../styles/index.css" rel="stylesheet">
+    <link href="../styles/buttons.css" rel="stylesheet">
+    <link href="../styles/text.css" rel="stylesheet">
+    <link href="../styles/list.css" rel="stylesheet">
+    <link href="../styles/auth.css" rel="stylesheet">
+    <link href="../styles/header.css" rel="stylesheet">
+    <link href="../styles/about.css" rel="stylesheet">
+    <link href="../styles/faq.css" rel="stylesheet">
+    <link href="../styles/contacts.css" rel="stylesheet">
+    <link href="../styles/order.css" rel="stylesheet">
+    <link href="./favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header-container">
+        <a href="/fake-front/pages/landing.html">
+            <img alt="logo" src="/assets/images/icons/logo.svg" />
+        </a>
+        <div class="breadcrumbs">
+            <a class="text-color-grey1" href="/fake-front/pages/order.html">Order</a>
+            <a class="text-color-grey1" href="/fake-front/pages/faq.html">FAQ</a>
+            <a class="text-color-grey1">Referral</a>
+            <a class="text-color-grey1">Reseller</a>
+            <a class="text-color-grey1" >Contacts</a>
+        </div>
+        <div class="login">
+            <a href="/fake-front/pages/auth.html" class="btn-primary">
+                Log in
+            </a>
+            <img class="header-vline" src="/assets/images/lines/vline.svg">
+            <a href="/fake-front/pages/auth.html" class="btn-secondary">
+                Sign up
             </a>
         </div>
     </div>
-    <p class="license">fake. © All Rights Reserved</p>
-
 </div>
+    <div class="auth">
+        <div class="card-auth-border">
+            <div class="card-auth">
+                <div class="h2s-auth">
+                    <h3 class="text-color-green1">Create an account,&nbsp;</h3>
+                    <h3>and get IDs!</h3>
+                </div>
+                <div class="radio-inputs">
+                    <label class="radio">
+                        <input checked="" name="radio" type="radio">
+                        <span class="name">Sign up</span>
+                    </label>
+                    <label class="radio">
+                        <input name="radio" type="radio">
+                        <span class="name">Log in</span>
+                    </label>
+                </div>
+                <div class="form-auth">
+                    <input class="user-data-input" placeholder="E-mail">
+                    <input class="user-data-input" placeholder="Password">
+                    <input class="user-data-input" placeholder="Referral code">
+                </div>
+                <a class="btn-secondary-big" href="/fake-front/pages/profile-tickets.html">
+                    Create account
+                </a>
+            </div>
+        </div>
+        <p class="license">fake. © All Rights Reserved</p>
+    </div>
+<script src="/js/auth.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
