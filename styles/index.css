@@ -22,7 +22,9 @@
     font-family: 'inter';
     src: url('../assets/fonts/Inter/Inter-Regular.ttf');
 }
-
+html, body {
+    min-height: 100%;
+}
 body {
     margin: 0;
     font-family: "manrope-medium", sans-serif;
