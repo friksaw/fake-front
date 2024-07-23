@@ -11,7 +11,7 @@
         border-radius: 8px;
         height: 64px;
         background-color: #0C0E0F;
-        padding: 0 12px;
+        padding: 0 8px 0 12px;
         margin-bottom: 12px;
 
         .row-license,
