@@ -1,0 +1,24 @@
+.uploads {
+    display: flex;
+    flex-direction: row;
+}
+
+.uploaded-box,
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #09090B;
+    width: 244px;
+    height: 118px;
+    border-radius: 8px;
+    margin-top: 28px;
+}
+
+.uploaded-box {
+    border: 1px solid #26E5A1;
+}
+.upload-box {
+    border: 1px solid #394653;
+}

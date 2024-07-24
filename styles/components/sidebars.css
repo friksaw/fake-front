@@ -9,15 +9,15 @@
     background-color: #09090B;
     overflow-x: hidden;
     border-left: 1px solid #171E24;
-
 }
+
 .nv-sidebar-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     align-content: space-between;
-    padding: 48px 0;
+    padding: 48px 48px 0 48px;
 
     .nv-sidebar-content-inputs {
         display: flex;

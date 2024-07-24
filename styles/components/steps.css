@@ -14,6 +14,8 @@
     background-color: #16191C;
     padding: 10px;
     border: 1px solid #26E5A1;
+    position: relative;
+
 }
 
 .step {
@@ -23,3 +25,12 @@
 .step-selected {
 
 }
+.step:after {
+    content: '';
+    background-color: linear-gradient(top left, #16191C, red);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4px; right: -11px;
+    width: 21px;
+    height: 21px;
+}​
