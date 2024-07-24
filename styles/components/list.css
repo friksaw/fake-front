@@ -16,8 +16,9 @@
         border: 1px solid #212931;
         border-radius: 8px;
         background-color: #0C0E0F;
-        padding: 8px 8px 8px 12px;
+        padding: 0 12px 0 12px;
         margin-bottom: 12px;
+        height: 64px;
 
         .row-license,
         .row-item,
