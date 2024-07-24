@@ -13,9 +13,13 @@
     flex-direction: row;
     height: 30px;
 }
-.badge,
+
 .badge-outlined {
     border: 1px solid #26E5A1;
+    color: #26E5A1;
+    background-color: rgba(38, 229, 161, 0.2);
+}
+.badge {
     color: #26E5A1;
     background-color: rgba(38, 229, 161, 0.2);
 }
