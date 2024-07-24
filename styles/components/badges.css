@@ -1,8 +1,12 @@
 .badge-outlined-grey,
-.badge-outlined,
-.badge {
+.badge-outlined {
     padding: 2px 12px;
     margin: 0 12px;
+    border-radius: 16px;
+}
+.badge {
+    padding: 2px 12px;
+    margin: 0 4px;
     border-radius: 16px;
 }
 
