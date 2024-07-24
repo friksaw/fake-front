@@ -35,7 +35,7 @@ button {
 
 .btn-secondary-green {
     color: #26E5A1;
-    padding: 6px 16px;
+    padding: 0 16px;
     background-color: rgba(38, 229, 161, 0.2);
     font-size: 18px;
     border-radius: 8px;
