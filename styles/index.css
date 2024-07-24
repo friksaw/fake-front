@@ -130,6 +130,8 @@ body {
     padding: 0 16px;
     font-size: 18px;
     color: #ECFFF8;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -140,7 +142,7 @@ body {
     justify-content: center;
     border-radius: 0.5rem;
     border: none;
-    padding: 2px;
+    padding: 24px;
     transition: all .15s ease-in-out;
     height: 24px;
 
@@ -149,7 +151,13 @@ body {
 input::placeholder {
     font-size: 18px;
     color: #394653;
+    margin: 12px;
 }
+
+input {
+    padding: 24px;
+}
+
 
 
 
