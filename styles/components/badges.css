@@ -1,15 +1,26 @@
+.badge-outlined-grey,
 .badge-outlined,
 .badge {
     padding: 2px 12px;
-    margin: 0 4px;
+    margin: 0 8px;
     border-radius: 16px;
-    color: #26E5A1;
-    background-color: rgba(38, 229, 161, 0.2);
 }
 
+
+.badge-outlined-grey,
 .badge-outlined {
     display: flex;
     flex-direction: row;
-    border: 1px solid #26E5A1;
     height: 30px;
+}
+.badge,
+.badge-outlined {
+    border: 1px solid #26E5A1;
+    color: #26E5A1;
+    background-color: rgba(38, 229, 161, 0.2);
+}
+.badge-outlined-grey {
+    border: 1px solid #212931;
+    color: #50677D;
+    background-color: #212931;
 }

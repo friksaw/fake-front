@@ -151,7 +151,7 @@ body {
 input::placeholder {
     font-size: 18px;
     color: #394653;
-    margin: 12px;
+    margin: 12px 8px;
 }
 
 input {

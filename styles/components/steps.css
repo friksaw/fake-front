@@ -1,31 +1,36 @@
 .steps-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 540px;
+    width: 550px;
     margin-bottom: 18px;
 }
 
-.step-selected,
 .step {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 8px;
+    margin: 4px;
 
 }
+.step-content-selected,
 .step-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #16191C;
-    padding: 10px;
+    padding-left: 16px;
     font-size: 16px;
-    border: 1px solid #26E5A1;
-    border-right: 0;
     border-radius: 8px;
     height: 50px;
+}
 
+.step-content {
+    border: 1px solid #212931;
+    border-right: 0;
+}
+.step-content-selected {
+    border: 1px solid #26E5A1;
+    border-right: 0;
 }
 
 .step {
@@ -38,8 +43,9 @@
 .step-triangle {
     width: 0;
     height: 0;
-    border-top: 36px solid transparent;
-    border-bottom: 36px solid transparent;
+    margin-left: -2px;
+    border-top: 28px solid transparent;
+    border-bottom: 28px solid transparent;
     border-radius: 8px;
     border-left: 16px solid #16191C;
 }
