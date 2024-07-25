@@ -181,4 +181,13 @@ input {
     margin-bottom: -4px;
 }
 
+.content-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 
+    img {
+        margin-left: -48px;
+        margin-top: 8px;
+    }
+}
