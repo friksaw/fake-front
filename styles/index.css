@@ -40,7 +40,6 @@ body {
     width: 100%;
 }
 
-
 .badge-outline {
     color: #26E5A1;
     border: 1px solid #26E5A1;
@@ -54,7 +53,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 .buttons {
     display: flex;
@@ -77,7 +75,6 @@ body {
     justify-content: center;
     color: #50677D;
 }
-
 
 .radio-inputs {
     position: relative;
@@ -111,7 +108,6 @@ body {
     border-radius: 8px;
     color: #50677D;
     transition: all .15s ease-in-out;
-
     font-family: "inter", sans-serif;
     font-size: 18px;
     font-weight: 467;
@@ -145,7 +141,6 @@ body {
     padding: 24px;
     transition: all .15s ease-in-out;
     height: 24px;
-
 }
 
 input::placeholder {
@@ -157,9 +152,6 @@ input::placeholder {
 input {
     padding: 24px;
 }
-
-
-
 
 .hr-v {
     border-color: #171E24;

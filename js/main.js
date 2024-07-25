@@ -1,5 +1,10 @@
 function openNav() {
-    document.getElementById("nv-sidenav").style.width = "580px";
+    document.getElementById("nv-sidenav").style.width = "560px";
+    document.getElementById("nv-sidenav").style.backgroundImage = "url('../assets/images/bg/modal-bg.svg')";
+    document.getElementById("nv-sidenav").style.backgroundRepeat = "no-repeat";
+    document.getElementById("nv-sidenav").style.backgroundPosition = "bottom";
+    document.getElementById("nv-sidenav").style.backgroundWidth = "contain";
+
 }
 
 /* Set the width of the side navigation to 0 */
